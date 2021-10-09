@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100%;
+    height: 100%;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    height: 100%;
+    background: url("../img/login.jpg") no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+#t1 {
+    margin-left: 130px;
+}
+
+#t2 {
+    margin-left: 280px;
+}
+
+#t3 {
+    margin-left: 430px;
+}
+
+.font-style {
+    color: white;
+    font-style: italic;
+    font-family: "幼圆";
+    font-weight: bolder;
+}
+
+.title-container {
+    width: 150px;
+    height: 100px;
+    margin-top: 50px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 90px;
+}
+
+.content-area {
+    background-color: rgba(75, 74, 74, 0.7);
+    box-shadow: 10px 10px 5px 2px rgba(30, 30, 30, 0.6);
+}
+
+#form-login {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 30px;
+    right: 150px;
+}
+
+.form-title {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.form-label {
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+input, .department-input {
+    margin-top: 40px;
+    width: 150px;
+    height: 30px;
+    background-color: rgba(229, 231, 241, 0.2);
+}
+
+h2 {
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    font-size: 60px;
+    z-index: 2;
+}
+
+.btn-submit {
+    margin-left: 100px;
+    width: 100px;
+    height: 30px;
+    background-color: rgba(4, 37, 154, 0.2);
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.main {
+    text-align: center;
+    position: absolute;
+    width: 950px;
+    height: 450px;
+    left: 170px;
+    top: 70px;
+    z-index: 1;
+}
+
+#btn-upload {
+    display: block;
+    float: right;
+    text-decoration: none;
+    width: 100px;
+    height: 60px;
+    background-color: rgba(0, 0, 255, 0.1);
+    color: white;
+    line-height: 60px;
+    text-align: center;
+}
+
+#btn-upload:hover {
+    cursor: default;
+}
+
+input::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#avatar {
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+}
+
+#userinfo {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+}
+
+#start {
+    float: right;
+    width: 100px;
+    height: 60px;
+    background-color: rgba(0, 0, 255, 0.1);
+    color: white;
+    line-height: 60px;
+    text-align: center;
+}
+
+#start:hover {
+    cursor: default;
+}
+
+#game-area {
+    position: absolute;
+    top: 30px;
+    left: 300px;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+}
+
+#photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    visibility: hidden;
+}
+
+.options {
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 100px;
+    background-color: rgba(0, 0, 255, 0.1);
+    visibility: hidden;
+}
+
+.right {
+    background-color: rgba(73, 210, 73, 0.5);
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.error {
+    background-color: rgba(255, 30, 75, 0.5);
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.flash {
+    margin-left: 70px;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 10px;
+}
