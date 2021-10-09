@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>log in</title>
+    <link type="text/css" rel="stylesheet" href="../static/css/style.css"/>
+</head>
+<body>
+    <div class="title-container font-style" id="t1">WHO</div>
+    <div class="title-container font-style" id="t2">ARE</div>
+    <div class="title-container font-style" id="t3">YOU</div>
+    <div class="content-area" id="form-login">
+        <div class="form-title font-style">Log in  Now</div>
+        {% for message in get_flashed_messages() %}
+            <div class='flash font-style'>{{ message }}</div>
+        {% endfor %}
+        <form method="post">
+            {{ form.csrf_token }}
+            {{ form.name.label(class="form-label font-style") }}
+            {{ form.name }}<br>
+            {{ form.stu_id.label(class="form-label font-style") }}
+            {{ form.stu_id }}<br>
+            {{ form.department.label(class="form-label font-style") }}
+            {{ form.department }}<br>
+            {{ form.submit }}
+        </form>
+    </div>
+</body>
+</html>
